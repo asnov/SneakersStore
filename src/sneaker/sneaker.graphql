@@ -1,0 +1,14 @@
+type Sneaker {
+    id: ID
+    name: String!
+    brand: String!
+    color: String!
+    price: Float!
+    material: String!
+    isInStock: Boolean!
+}
+
+type Query {
+    hello: String!
+    sneakers: [Sneaker!]
+}
